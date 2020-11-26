@@ -1,0 +1,85 @@
+/* THIS CSS CODE IS FOR RESPONSIVE WEBSITE DESIGN */
+/* a variety of media is considered from smartphones to small tablets */
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media screen and (max-width: 1200px) {
+  .slogan-text-box{
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row{
+    padding: 0 2%;
+  }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media screen and (max-width: 1023px){
+    body { font-size: 15px; }
+    section { padding: 60px 0; }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media screen and (max-width: 767px){
+    .donate-box{
+    width: 100%;
+    margin-left: 20%;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media screen and (max-width:480px){
+  /*---- HEADERS BACKGROUND IMAGE RESIZING ----*/
+  .home-page{
+    background-size: 270%;
+  }
+  .animals {
+    background-size: 250%;
+  }
+
+  .about-us{
+    background-size: 250%;
+  }
+
+  .donate{
+      background-size: 250%; 
+  }
+  .volunteer{
+    background-size: 250%;
+  }
+  /*---- LOGO RESIZING ----*/
+  .logo{
+    box-sizing: content-box;
+    padding: 20px 0;
+    height: 60px;
+    width: auto;
+    float:left;
+  }
+
+  /*---- NAV RESIZING ----*/
+  
+  .main-nav{
+    margin-top: 0;
+  }
+
+  .main-nav li{
+    margin-left: 10px;
+  }
+
+  /*---- DONATE BOX RESIZING ----*/
+  .donate-box{
+    width: 100%;
+    margin-left: 20%;
+  }
+
+  .social-links {
+    justify-content: left;
+  }
+
+  .footer-logo{
+    margin-top: 30px;
+    height: 60px;
+    width: auto;
+    float: left;
+  }
+}

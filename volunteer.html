@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+    <link href="responsive.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="images/spana-logo.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+
+  </head>
+  <body>
+    <header class="volunteer">
+      <nav>
+        <div class="row">
+          <img src="images/spana-logo.png" alt="spana logo" class="logo">
+          <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="animals.html">Animals</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+       </div>      
+      </nav>
+      <div class="slogan-text-box">
+        <h1> BE THE CHANGE YOU WANT TO BE </h1>
+      </div>
+    </header>
+    <section>
+      <div class="row">
+      <h2>TYPES OF VOLUNTEERING</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2">
+        <h3>Behind The Scenes</h3>
+        <p class="volunteer-text"> If you feel like you want to contribute but don't want to get on the field you can do things such as running stalls,attend events, help with administration or even run your own fundrasing event. You don't need to have specific skills to volunteer, just be passionate about helping these animals and you're more than welcome to join!</p>
+        </div>
+        <div class="col span-1-of-2">
+        <h3>On The Ground</h3>
+        <p class="volunteer-text">Help support these animals by doing things such as treating sick working animals or educating children on animal welfare. You'll be involved in training, treating sick working animals, and teaching children on the importance of respecting working animals. Don't worry as we will help and guide you along the way!</p>
+        </div>
+      </div>
+
+    </section>
+    <section class="section-form">
+        <div class="row">
+          <h2>WE'RE HAPPY TO HAVE YOU</h2>
+        </div>
+        <div class="row">
+          <form method="post" action="#" class="contact-form">
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Name</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Email</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="text" name="email" id="email" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Phone Number</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="text" name="phone" id="phone" placeholder="Phone" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Address</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="text" name="address" id="address" placeholder="Address" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Volunteer Type</label>
+              </div>
+              <div class="col span-2-of-3">
+                <select name="volunteer-option" id="volunteer-option">
+                  <option value="behind-the-scene" selected>Behind The Scene</option>
+                  <option value="on-the-ground">On The Ground</option>
+                </select>
+              </div>
+              <div class="row">
+                <div class="col span-1-of-3">
+                  <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                  <input type="submit" value="Submit">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+    </section>
+
+   <footer>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <h4 class="contact-us">Contact Us</h3>
+          <a class ="method-btn" href = "#"> Phone</a>
+          <a class ="method-btn" href = "#"> Email</a>
+        </div>
+
+        <div class="col span-1-of-3">
+            <ul class="social-links">
+              <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            </ul>
+        </div>
+
+        <div class="col span-1-of-3">
+          <img src="images/spana-logo.png" alt="spana logo" class="footer-logo">
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
